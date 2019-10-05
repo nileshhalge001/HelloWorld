@@ -6,7 +6,7 @@ int main()
     int a ;
     
     cout << "\n1.C\n2.C++\n3.Python\n4.Java\n5.Ruby\n6.Clipper\n7.C#" ;
-    cout << "\n8.Bash\n9.jQuery\n10.Swift\n";
+    cout << "\n8.Bash\n9.jQuery\n10.Swift\n11.JavaScript";
     cout << "Enter Your Choice : " ;
     cin >> a ;
     switch(a)
@@ -45,6 +45,8 @@ int main()
         case 10 :
                 cout << "println(\"Hello, world!\")" ;
                 break ;
+        case 11 :
+                cout << "alert( 'Hello, world!' );";
         default :
                 cout << "Invalid choice."  ;                    
     }
